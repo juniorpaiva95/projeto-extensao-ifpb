@@ -178,6 +178,7 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         Nwidart\Modules\LaravelModulesServiceProvider::class,
+        Acacha\AdminLTETemplateLaravel\Providers\AdminLTETemplateServiceProvider::class,
 
     ],
 
@@ -229,7 +230,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
         'Module' => Nwidart\Modules\Facades\Module::class,
-
+        'AdminLTE' => Acacha\AdminLTETemplateLaravel\Facades\AdminLTE::class,
     ],
 
 ];
